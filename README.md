@@ -7,6 +7,36 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+## Requirements  ##
+* PHP >= 8.0.2
+* Composer
+* Git
+* MySQL
+
+## Installation ##
+
+* `git clone https://github.com/Carlosferrerhernandez/Api-Fitpal.git`
+* `cd api-fitpal`
+* `composer install`
+* `npm install`
+* `cp .env.example .env`
+* `php artisan key:generate`
+*  Add your database information in *.env*
+* `php artisan migrate --seed` Execute migrations and seeder to enter records.
+* `npm run dev` Execute if you want a pleasant UI experience.
+* `php artisan server` Start the service and check at http:localhost:8000/
+
+## Tests ##
+* `php artisan migrate --seed` Execute migrations and seeder to enter records.
+* `php artisan test --env=testing`
+
+## Credits ##
+* Carlos Ferrer
+* Taylor Otwell (Creator of Laravel)
+* Developed for the purpose of a technical test for Back-end Developer.
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
